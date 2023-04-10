@@ -1,0 +1,27 @@
+{
+  "name": "booking-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanmohadikar/booking-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanmohadikar/booking-backend/issues"
+  },
+  "homepage": "https://github.com/mohanmohadikar/booking-backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
