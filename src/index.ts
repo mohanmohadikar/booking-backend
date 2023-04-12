@@ -13,13 +13,17 @@
 // limitations under the License.
 
 import express from 'express';
+import dotenv from 'dotenv';
+
+dotenv.config();
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
+const environment = process.env.NODE_ENV;
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
 app.listen(port, () => {
-  return console.log(`Express is listening at http://localhost:${port}`);
+  console.log(`Listening on {${port}} with NODE_ENV {${environment}}`);
 });
